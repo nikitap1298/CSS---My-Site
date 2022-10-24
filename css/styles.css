@@ -16,6 +16,7 @@ h2 {
   font-weight: normal;
   font-size: 2.5rem;
   color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -27,6 +28,7 @@ h3 {
 p {
   font-family: "Lora-Regular", serif;
   color: #40514E;
+  line-height: 2
 }
 
 a {
@@ -36,12 +38,11 @@ a {
 }
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #D8D9CF;
-  border-width: 5px;
-  width: 3%;
-  margin-top: 50px;
+  border: dotted #D8D9CF;
+  border-width: 7px;
+  border-bottom: none;
+  width: 4%;
+  margin-top: 100px auto;
 }
 
 /* TODO: Class Selector */
@@ -52,13 +53,22 @@ hr {
 }
 
 .middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
+  background-color: #66BFBF;
+  margin: auto;
+  padding: 50px 0 20px;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
 }
 
 .code-1 {
@@ -70,7 +80,7 @@ hr {
 
 .camera {
   position: absolute;
-  left: 23%;
+  left: 20%;
   bottom: 40%;
   width: 5%;
 }
@@ -133,8 +143,8 @@ hr {
 }
 
 .p-contact-me {
-  margin-top: 50px;
-  margin-bottom: 60px;
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .btn {
@@ -144,9 +154,7 @@ hr {
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
+  border-radius: 15px;
   font-family: "Lora-Regular", serif;
   color: #ffffff;
   font-size: 20px;
@@ -164,16 +172,10 @@ hr {
   text-decoration: none;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
-  margin: auto;
-  padding: 50px;
-}
-
 .footer-link {
   font-family: "Nunito", serif;
   font-weight: bold;
-  margin: auto 10px auto 10px;
+  margin: auto 10px auto 20px;
 }
 
 .footer-link:hover {
@@ -182,5 +184,6 @@ hr {
 
 .all-rights {
   padding-top: 20px;
+  font-size: 0.75rem;
   color: #EAF6F6;
 }
